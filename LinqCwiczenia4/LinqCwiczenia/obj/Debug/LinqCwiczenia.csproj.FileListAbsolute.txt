@@ -1,0 +1,13 @@
+C:\Users\Maciek\Documents\LinqCwiczenia4\LinqCwiczenia\bin\Debug\LinqCwiczenia.exe.config
+C:\Users\Maciek\Documents\LinqCwiczenia4\LinqCwiczenia\bin\Debug\LinqCwiczenia.exe
+C:\Users\Maciek\Documents\LinqCwiczenia4\LinqCwiczenia\bin\Debug\LinqCwiczenia.pdb
+C:\Users\Maciek\Documents\LinqCwiczenia4\LinqCwiczenia\obj\Debug\LinqCwiczenia.csprojResolveAssemblyReference.cache
+C:\Users\Maciek\Documents\LinqCwiczenia4\LinqCwiczenia\obj\Debug\LinqCwiczenia.Form1.resources
+C:\Users\Maciek\Documents\LinqCwiczenia4\LinqCwiczenia\obj\Debug\LinqCwiczenia.Properties.Resources.resources
+C:\Users\Maciek\Documents\LinqCwiczenia4\LinqCwiczenia\obj\Debug\LinqCwiczenia.csproj.GenerateResource.Cache
+C:\Users\Maciek\Documents\LinqCwiczenia4\LinqCwiczenia\obj\Debug\LinqCwiczenia.exe
+C:\Users\Maciek\Documents\LinqCwiczenia4\LinqCwiczenia\obj\Debug\LinqCwiczenia.pdb
+C:\Users\Maciek\Documents\LinqCwiczenia4\LinqCwiczenia\bin\Debug\LinqCwiczenia.exe.manifest
+C:\Users\Maciek\Documents\LinqCwiczenia4\LinqCwiczenia\bin\Debug\LinqCwiczenia.application
+C:\Users\Maciek\Documents\LinqCwiczenia4\LinqCwiczenia\obj\Debug\LinqCwiczenia.exe.manifest
+C:\Users\Maciek\Documents\LinqCwiczenia4\LinqCwiczenia\obj\Debug\LinqCwiczenia.application

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LinqCwiczenia.exe" version="1.0.0.0" publicKeyToken="f4d3655c5b86ee15" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LinqCwiczenia" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LinqCwiczenia.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LinqCwiczenia.exe" size="25528">
+      <assemblyIdentity name="LinqCwiczenia" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>srh+JFmdbE1R/k4Cdv0iK7CY1e8GOm8OT+nHCOhKDQ8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="LinqCwiczenia.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=I75500U\Maciek" issuerKeyHash="dd9a42a55a70ddf2d77e05595df0c860df19edee" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>UgzGNVvPBwN01xHpImv5Pf1qt1RNWX1iExQwhbG+8Vk=</DigestValue></Reference></SignedInfo><SignatureValue>cYa2yWZvRj8xbfHc3y8BYv6vcHKr6ukPEdi7JLdSQc6LdPeky7E9FgRMbRWmj5eO943slcFmw0idMg9gbcEYNrxEgOID97OMWEr2+Y0h3yU2N/Te11QBk/Yfo+BH37w5w+miAjqgEfQsEABET3zv1HY2I2nZLix/Drbt6QlZuNk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uenapQ/zAUnPO1dtYfznzIgcsHlVN05z2Ruu5utu6JZ5akGkJDPQjA3VAusdiEApTWsZmmEiZpCEayEHUtHXjGBe1dpmA2fdVUXubfn58kUArs3FL9jnEqVJYIxe2iyMpEI7bkAaTW49ZkZxOE4AM7+X5deI4nh5KkU8U1m3VPU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="59f1beb185301413627d594d54b76afd3df96b22e911d7740307cf5b35c60c52" Description="" Url=""><as:assemblyIdentity name="LinqCwiczenia.exe" version="1.0.0.0" publicKeyToken="f4d3655c5b86ee15" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=I75500U\Maciek</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>aQABw/mq4wDA3j+Ek5qe5t3LmxY1RlY/sqONmFjOWac=</DigestValue></Reference></SignedInfo><SignatureValue>uOuPuwQ8GKLWk7Xw0uzSbfLexXXGTld9wFWmcihUkugvUrsyEB/tuuTT+z7P3KPhr3xjE/fLG3ybxVwEeBRmhRT/T6veIBFy/s41pHewmZtVncXJG1uT1tEW8d1zXo02wB96Ljavp24JmWTUY6lS2PjaKRr4pwKoDwP1HbQEgiQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uenapQ/zAUnPO1dtYfznzIgcsHlVN05z2Ruu5utu6JZ5akGkJDPQjA3VAusdiEApTWsZmmEiZpCEayEHUtHXjGBe1dpmA2fdVUXubfn58kUArs3FL9jnEqVJYIxe2iyMpEI7bkAaTW49ZkZxOE4AM7+X5deI4nh5KkU8U1m3VPU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQEkQIBQf+N7VA07k6qH3dOzANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwASQA3ADUANQAwADAAVQBcAE0AYQBjAGkAZQBrMB4XDTE4MDQxNDExMjU0MFoXDTE5MDQxNDE3MjU0MFowJzElMCMGA1UEAx4cAEkANwA1ADUAMAAwAFUAXABNAGEAYwBpAGUAazCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAuenapQ/zAUnPO1dtYfznzIgcsHlVN05z2Ruu5utu6JZ5akGkJDPQjA3VAusdiEApTWsZmmEiZpCEayEHUtHXjGBe1dpmA2fdVUXubfn58kUArs3FL9jnEqVJYIxe2iyMpEI7bkAaTW49ZkZxOE4AM7+X5deI4nh5KkU8U1m3VPUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQA9nDmb2DANNXQjgXOloQsVg3zZvIpnCxCjExBU4kfE0do2++oZsqvdSWJkWFdu452bmqMdcXawuT6s9bp7HivlTPi2nqamsn5GmLi9ExeK+K8xgat6a1lrVr/xPJKaGl4zBuDxVcSflLQe87Yo3plhxd+1svoBmn1+QLdnryc8fA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
